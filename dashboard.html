@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>home page</title>
+    <link rel="stylesheet" href="./resources/stylesheets/home.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="./resources/script/isLoggedIn.js"></script>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0px;
+        margin: 0px;
+        overflow-x: hidden;
+      }
+      .page-title {
+        position: absolute;
+        top: 17px;
+        left: 70px;
+        color: #f2f2f2;
+        font-size: 70px;
+        font-family: fantasy;
+        font-variant: small-caps;
+        letter-spacing: 20px;
+      }
+      #navlist {
+        background-color: #3b7478;
+        position: absolute;
+        width: 100%;
+      }
+      #navlist a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 18px;
+        text-decoration: none;
+        font-size: 15px;
+      }
+      .navlist-right {
+        float: right;
+      }
+      #navlist a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      /* styling search bar */
+      .search input[type="text"] {
+        width: 300px;
+        height: 40px;
+        border-radius: 25px;
+        border: solid black;
+        background-color: white;
+      }
+
+      .search {
+        float: right;
+        margin: 7px;
+      }
+
+      .search button {
+        background-color: #3b7478;
+        color: black;
+        float: right;
+        padding: 15px 18px;
+        margin-right: 16px;
+        font-size: 12px;
+        border: none;
+        cursor: initial;
+      }
+      .container .link {
+        border: 1px solid black;
+        border-radius: 5px 5px 5px 5px;
+        /* padding: 2px 2px 2px 2px; */
+        color: black;
+      }
+
+      button {
+        color: #111;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 12px 35px;
+        margin-top: 15px;
+        border: 1px solid #3b6978;
+        border-radius: 20px;
+        text-transform: uppercase;
+        transition: transform 80ms ease-in;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top">
+      <img
+        src="./resources/images/experience.jpg"
+        height="250px"
+        width="100%"
+      />
+      <div class="page-title">Our Experiences Bring Us Together</div>
+    </div>
+    <!-- Navbar items -->
+    <div id="navlist">
+      <a href="./dashboard.html">Home</a>
+      <a href="./viewExperience.html">View Experiences</a>
+      <a href="./resources.html">Resources</a>
+      <a href="#">Off Campus</a>
+      <a id="logoutButton" href="index.html">Logout</a>
+      <a href="#">
+        <img
+          src="./resources/images/profile.png"
+          width="30px"
+          height="30px"
+          alt=""
+      /></a>
+
+      <!-- search bar right align
+                    <div class="search">
+                        <form action="#">
+                            <input type="text"
+                                placeholder=" Search Company"
+                                name="search">
+                            <button>
+                                <i class="fa fa-search"
+                                    style="font-size: 18px;">
+                                </i>
+                            </button>
+                        </form>
+                    </div> -->
+    </div>
+
+    <div class="slide">
+      <span
+        ><h1>Welcome,</h1>
+        <h2 id="userName"></h2
+      ></span>
+      <h1>People grow through experiences</h1>
+      <div class="card1" data-aos="fade-up-left" data-aos-duration="500">
+        <img src="./resources/images/view.jpg" />
+        <div class="notes">
+          <h3>View experience</h3>
+          <p>
+            Why not take a look at your seniors' interview experience?<br />
+            To view any interview experience please click on the below button
+          </p>
+          <a href="./viewExperience.html" class="b1">Click Me!</a>
+        </div>
+      </div>
+
+      <div class="card1" data-aos="fade-up-right" data-aos-duration="500">
+        <img src="./resources/images/add.jpg" />
+        <div class="notes">
+          <h3>Add your interview experience</h3>
+          <p>
+            Warmest Congratulations on your achievement<br />
+            Your interview experience can be of great help to someone<br />
+            click on the below button to add your experience
+          </p>
+          <a href="./addexperience.html" class="b1">Click Me!</a>
+        </div>
+      </div>
+
+      <div class="card1" data-aos="fade-up-left" data-aos-duration="500">
+        <img src="./resources/images/practice.jpg" />
+        <div class="notes">
+          <h3>Practice Paper</h3>
+          <p>
+            Interview calling?<br />
+            Why not practice some questions<br />
+            click on the below button to view practice paper of the desired
+            company
+          </p>
+          <a href="/practicepaper.html" class="b1">Click Me!</a>
+        </div>
+      </div>
+
+      <div class="card1" data-aos="fade-up-right" data-aos-duration="500">
+        <img src="./resources/images/study.jpg" />
+        <div class="notes">
+          <h3>Resources</h3>
+          <p>
+            click on the below button to view study material and prepare
+            yourself to kill it at your upcoming interview
+          </p>
+          <a href="./resources.html" class="b1">Click Me!</a>
+        </div>
+      </div>
+
+      <div class="card1" data-aos="fade-up-left" data-aos-duration="500">
+        <img src="./resources/images/offcampus.jpg" />
+        <div class="notes">
+          <h3>Off Campus Drive</h3>
+          <p>
+            Hurry!!<br />
+            click on below button to view off campur recruitment drives
+          </p>
+          <a href="#" class="b1">Click Me!</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>All rights reserved</p>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    <script>
+      let userData = JSON.parse(localStorage.getItem("userData"));
+      let userName = document.getElementById("userName");
+      let name = userData.fname + " " + userData.lname;
+      userName.innerHTML = name;
+
+
+      let logoutButton = document.getElementById("logoutButton");
+      logoutButton.addEventListener("click", function () {
+        localStorage.removeItem("userData");
+      });
+    </script>
+  </body>
+</html>

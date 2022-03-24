@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <script src="./resources/script/isLoggedIn.js"></script>
   <style>
     body {
       font-family: Arial, Helvetica, sans-serif;
@@ -88,6 +89,7 @@
       width: 400px;
       height: 300px;
       perspective: 1000px;
+      margin: 30px;
     }
 
     .flip-card-inner {
@@ -128,6 +130,18 @@
 
     table {
       border-spacing: 50px 60px;
+      margin: 0 auto;
+    }
+
+    .flip-card-front span{
+      font-size: 50px;;
+    }
+
+    tr{
+      margin-top: 30px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
     }
     button {
   color: #111;
@@ -144,19 +158,20 @@
 
 <body>
   <div class="top">
-    <img src="C:\Users\ANKIT\Desktop\coding\project\image\experience.jpg" height="250px" width="100%"> 
+    <img src="./resources/images/experience.jpg" height="250px" width="100%"> 
           <div class="page-title">Our Experiences Bring Us Together</div>
 </div>
           <!-- Navbar items -->
           <div id="navlist">
-            <a href="#">Home</a>
-            <a href="#">View Experiences</a>
-            <a href="#">Resources</a>
-            <a href="#">Off Campus</a>
-            <a href="#"> <img src="image/profile.jpg" width="30px" height="30px" alt=""></a>
+            <a href="./dashboard.html">Home</a>
+            <a href="./viewExperience.html">View Experiences</a>
+            <a href="./resources.html">Resources</a>
+            <a href="#">Off Campus</a>            
+            <a id="logoutButton" href="index.html">Logout</a>
+            <a href="#"> <img src="./resources/images/profile.png" width="30px" height="30px" alt=""></a>
               
-            <!-- search bar right align -->
-            <div class="search">
+          <!-- search bar right align -->
+            <!-- <div class="search">
                 <form action="#">
                     <input type="text"
                         placeholder=" Search Company"
@@ -167,7 +182,7 @@
                         </i>
                     </button>
                 </form>
-            </div>
+            </div>  -->
 </div>
 
   <table>
@@ -176,12 +191,13 @@
       <td></td>
       <td></td>
     </tr>
-    <tr>
-      <td>
+    
+    <tr id="companyCards">
+      <!-- <td>
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <img src="C:\Users\ANKIT\Desktop\coding\project\image\amazon.png" alt="Avatar"
+              <img src="./resources/images/amazon.png" alt="Avatar"
                 style="width:300px;height:300px;">
             </div>
             <div class="flip-card-back">
@@ -199,7 +215,7 @@
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <img src="C:\Users\ANKIT\Desktop\coding\project\image\cicso.png" alt="Avatar"
+              <img src="./resources/images/cicso.png" alt="Avatar"
                 style="width:300px;height:300px;">
             </div>
             <div class="flip-card-back">
@@ -215,7 +231,7 @@
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <img src="C:\Users\ANKIT\Desktop\coding\project\image\microsoft.webp" alt="Avatar"
+              <img src="./resources/images/microsoft.webp" alt="Avatar"
                 style="width:300px;height:300px;">
             </div>
             <div class="flip-card-back">
@@ -236,7 +252,7 @@
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <img src="C:\Users\ANKIT\Desktop\coding\project\image\goldman.jpeg" alt="Avatar"
+              <img src="./resources/images/goldman.jpeg" alt="Avatar"
                 style="width:300px;height:300px;">
             </div>
             <div class="flip-card-back">
@@ -253,7 +269,7 @@
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <img src=" C:\Users\ANKIT\Desktop\coding\project\image\infosys.jpg" alt="Avatar"
+              <img src="./resources/images/infosys.jpg" alt="Avatar"
                 style="width:300px;height:300px;">
             </div>
             <div class="flip-card-back">
@@ -271,7 +287,7 @@
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <img src="C:\Users\ANKIT\Desktop\coding\project\image\myntraa.jfif" alt="Avatar"
+              <img src="./resources/images/myntraa.jfif" alt="Avatar"
                 style="width:300px;height:300px;">
             </div>
             <div class="flip-card-back">
@@ -289,7 +305,7 @@
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <img src="C:\Users\ANKIT\Desktop\coding\project\image\barclays.png" alt="Avatar"
+              <img src="./resources/images/barclays.png" alt="Avatar"
                 style="width:300px;height:300px;">
             </div>
             <div class="flip-card-back">
@@ -307,7 +323,7 @@
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <img src="C:\Users\ANKIT\Desktop\coding\project\image\google.jpg" alt="Avatar"
+              <img src="./resources/images/google.jpg" alt="Avatar"
                 style="width:300px;height:300px;">
             </div>
             <div class="flip-card-back">
@@ -326,7 +342,7 @@
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <img src="C:\Users\ANKIT\Desktop\coding\project\image\visa.jpeg" alt="Avatar"
+              <img src="./resources/images/Visa.jpeg" alt="Avatar"
                 style="width:300px;height:300px;">
             </div>
             <div class="flip-card-back">
@@ -347,7 +363,7 @@
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <img src="C:\Users\ANKIT\Desktop\coding\project\image\accenture.jpeg" alt="Avatar"
+              <img src="./resources/images/accenture.jpeg" alt="Avatar"
                 style="width:300px;height:300px;">
             </div>
             <div class="flip-card-back">
@@ -365,7 +381,7 @@
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <img src=" C:\Users\ANKIT\Desktop\coding\project\image\walmart.jpeg" alt="Avatar"
+              <img src="./resources/images/Walmart.jpeg" alt="Avatar"
                 style="width:300px;height:300px;">
             </div>
             <div class="flip-card-back">
@@ -383,7 +399,7 @@
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <img src=" C:\Users\ANKIT\Desktop\coding\project\image\ibmm.jpg" alt="Avatar"
+              <img src="./resources/images/ibm.png" alt="Avatar"
                 style="width:300px;height:300px;">
             </div>
             <div class="flip-card-back">
@@ -396,11 +412,11 @@
             </div>
           </div>
         </div>
-      </td>
+      </td> -->
     </tr>
-
   </table>
   </div>
+  <script src="./resources/script/viewExperience.js"></script>
 </body>
 
 </html>

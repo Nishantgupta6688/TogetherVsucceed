@@ -3,8 +3,9 @@
 
 <head>
   <meta charset="UTF-8" />
- <link rel="stylesheet" href="resources.css" />
+ <link rel="stylesheet" href="./resources/stylesheets/resources.css" />
   <title>Together✌️Succeed</title>
+  <script src="./resources/script/isLoggedIn.js"></script>
 </head>
 <body>
     <div class="top">
@@ -12,32 +13,32 @@
     </div>
     <div class="menu" id="sticky">
         <ul class="menu-list">
-            <a href="" class="a-menu"><li>HOME</li></a>
+            <a href="./dashboard.html" class="a-menu"><li>HOME</li></a>
             <a href="" class="a-menu"><li>OFF CAMPUS</li></a>
             <a href="" class="a-menu"><li>PRACTICE PAPER</li></a>
             <a href="" class="a-menu"><li>VIEW EXPERIENCE</li></a>
-            <a href="" class="a-menu"><li>ADD EXPERIENCE</li></a>
+            <a href="./experienceform.html" class="a-menu"><li>ADD EXPERIENCE</li></a>
             <a href="" class="a-menu"><li>PROFILE</li></a>
-            <li><a href="#"><img src="profile.png" class="profile"></a></li>
+            <li><a href="#"><img src="./resources/images/profile.png" class="profile"></a></li>
          
         </ul>
     </div>
     <div class="container">
         <a href="#t1">
             <div class="categories">
-                <img src="languages.jpg" class="items-img" alt="C++">
+                <img src="./resources/images/languages.jpg" class="items-img" alt="C++">
                 <div class="image-title">Languages</div>
             </div>
         </a>
         <a href="#t2">
             <div class="categories">
-                <img src="dsa1.png" class="items-img" alt="C++">
+                <img src="./resources/images/dsa1.png" class="items-img" alt="C++">
                 <div class="image-title">DSA</div>
             </div>
         </a>
         <a href="#t3">
             <div class="categories">
-                <img src="core.jpg" class="items-img" alt="C++">
+                <img src="./resources/images/core.jpg" class="items-img" alt="C++">
                 <div class="image-title">Core subjects</div>
             </div>
         </a>
@@ -48,7 +49,7 @@
         </div>
         <h3>Choose the language with which you want to start your coding journey</h3><br>
         <div class="languages">
-            <img src="c++.png" height="200" width="200"><br>
+            <img src="./resources/images/c++.png" height="200" width="200"><br>
             <div class=dropdown>
             <select name="select" onchange="window.open(this.options[this.selectedIndex].value,'_blank')">
                 <option value="none" selected disabled hidden>SELECT AN OPTION</option>
@@ -62,7 +63,7 @@
             <!--<button class="b1">Select</button>-->
         </div>
         <div class="languages">
-            <img src="C.png" height="200" width="200">
+            <img src="./resources/images/C.png" height="200" width="200">
             <div class="dropdown">
             <select name="select" onchange="window.open(this.options[this.selectedIndex].value,'_blank')">
                 <option value="none" selected disabled hidden>SELECT AN OPTION</option>
@@ -76,7 +77,7 @@
             <!--<button class="b1">Select</button>-->
         </div>
         <div class="languages">
-            <img src="java.png" height="200" width="200">
+            <img src="./resources/images/java.png" height="200" width="200">
             <div class="dropdown">
                 <select name="select" onchange="window.open(this.options[this.selectedIndex].value,'_blank')">
                     <option value="none" selected disabled hidden>SELECT AN OPTION</option>
@@ -90,7 +91,7 @@
         </div>
         <div class="languages">
             <div class="dropdown">
-            <img src="python.jpg" height="200" width="200">
+            <img src="./resources/images/python.jpg" height="200" width="200">
             <select name="select" onchange="window.open(this.options[this.selectedIndex].value,'_blank')">
                 <option value="none" selected disabled hidden>SELECT ON OPTION</option>
                 <option value="https://www.tutorialspoint.com/python/index.htm">Tutorialspoint</option>
@@ -105,23 +106,23 @@
     <div class="DSA1">
         <div class="title2" id="t2">DATA STRUCTURE AND ALGORITHMS</div>
         <div class="dsa">
-            <img src="leetcode1.png" height="180" width="200">
+            <img src="./resources/images/leetcode1.png" height="180" width="200">
             <button id="b1"><a href="https://leetcode.com/" id="a1" target="_blank">LEETCODE</a></button>
         </div>
         <div class="dsa">
-            <img src="gfg2.jpg" height="200" width="200">
+            <img src="./resources/images/gfg2.jpg" height="200" width="200">
             <button id="b1"><a href="https://geeksforgeeks.com/" id="a1" target="_blank">GEEKSFORGEEKS</a></button>
         </div>
         <div class="dsa">
-            <img src="hackerrank.jpg" height="200" width="200">
+            <img src="./resources/images/hackerrank.jpg" height="200" width="200">
             <button id="b1"><a href="https://www.hackerearth.com/" id="a1" target="_blank">HACKERARNK</a></button>
         </div>
         <div class="dsa">
-            <img src="codechef1.png" height="200" width="200">
+            <img src="./resources/images/codechef1.png" height="200" width="200">
             <button id="b1"><a href="https://www.codechef.com/" id="a1" target="_blank">CODECHEF</a></button>
         </div>
         <div class="dsa">
-            <img src="codeforces.jpg" height="200" width="200">
+            <img src="./resources/images/codeforces.jpg" height="200" width="200">
             <button id="b1"><a href="https://www.codechef.com/" id="a1" target="_blank">CODEFORCES</a></button>
         </div>
         
@@ -129,7 +130,7 @@
     <div class="SUBJECTS">
         <div class="title3" id="t3">CORE SUBJECTS</div>
         <div class="sub">
-            <img src="dbms2.jpeg" height="200" width="200">
+            <img src="./resources//images/dbms2.jpeg" height="200" width="200">
             <select name="select" onchange="window.open(this.options[this.selectedIndex].value,'_blank')">
                 <option value="none" selected disabled hidden>SELECT ON OPTION</option>
                 <option value="https://www.javatpoint.com/dbms-tutorial">Javatpoint</option>
@@ -139,7 +140,7 @@
             </select>
         </div>
         <div class="sub">
-            <img src="opeartin system'.png" height="200" width="200">
+            <img src="./resources/images/opeartin system'.png" height="200" width="200">
             <select name="select" onchange="window.open(this.options[this.selectedIndex].value,'_blank')">
                 <option value="none" selected disabled hidden>SELECT ON OPTION</option>
                 <option value="https://www.geeksforgeeks.org/operating-systems/?ref=lbp">GeeksForGeeks</option>
@@ -148,7 +149,7 @@
             </select>
         </div>
         <div class="sub">
-            <img src="dcn2.jpg" height="200" width="200">
+            <img src="./resources/images/dcn2.jpg" height="200" width="200">
             <select name="select" onchange="window.open(this.options[this.selectedIndex].value,'_blank')">
                 <option value="none" selected disabled hidden>SELECT ON OPTION</option>
                 <option value="https://www.tutorialspoint.com/data_communication_computer_network/index.htm">Tutorialspoint</option>
@@ -157,7 +158,7 @@
             </select>
         </div>
         <div class="sub">
-            <img src="oops2.jpg" height="200" width="200">
+            <img src="./resources/images/oops2.jpg" height="200" width="200">
             <select name="select" onchange="window.open(this.options[this.selectedIndex].value,'_blank')">
                 <option value="none" selected disabled hidden>SELECT ON OPTION</option>
                 <option value="https://www.w3schools.com/cpp/cpp_oop.asp">W3Schools</option>

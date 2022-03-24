@@ -38,6 +38,8 @@ h1 {
   font-family: "Roboto", sans-serif;
 }
 
+
+
 p {
   font-size: 14px;
   font-weight: bold;
@@ -117,8 +119,6 @@ input[type="password"] {
   width: 300px;
   text-align: center;
   background: transparent;
-  border: none;
-  border-bottom: 1px solid #fff;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 200px;
@@ -127,6 +127,14 @@ input[type="password"] {
   outline: none;
   color: black;
   font-weight: bold;
+}
+
+.border-red{
+  border-bottom: 1px solid red;
+}
+
+.border-blue{
+  border-bottom: 1px solid #fff;
 }
 
 button:active {
@@ -249,14 +257,14 @@ button:focus {
           <a href="#" class="social"><i class="fab fa-linkedin"></i></a>
           <a href="#" class="social"><i class="fab fa-google"></i></a>
         </div>
-        <input type="text" name="fname" required name="name" placeholder="First Name">
-        <input type="text" name="lname" required name="name" placeholder="Last Name">
-        <input type="text" name="username" required name="name" placeholder="User Name">
-        <input type="email" placeholder="abc@gmail.com" />
-        <input type="password" placeholder="Password" />
-        <input type="password" placeholder="Confirm Password" />
-        <input type="text" placeholder="Graduation year"/>
-        <button>Sign Up</button>
+        <input id="fname" class="border-blue" type="text" name="fname" required name="name" placeholder="First Name">
+        <input id="lname" class="border-blue" type="text" name="lname" required name="name" placeholder="Last Name">
+        <input id="username" class="border-blue" type="text" name="username" required name="name" placeholder="User Name">
+        <input id="email" class="border-blue" type="email" placeholder="abc@gmail.com" />
+        <input id="password" class="border-blue" type="password" placeholder="Password" />
+        <input id="cpassword" class="border-blue" type="password" placeholder="Confirm Password" />
+        <input id="gyear" class="border-blue" type="text" placeholder="Graduation year"/>
+        <button id="registerButton">Sign Up</button>
         <button>Reset</button>
       </form>
     </div>
@@ -268,9 +276,9 @@ button:focus {
           <a href="#" class="social"><i class="fab fa-linkedin"></i></a>
           <a href="#" class="social"><i class="fab fa-google"></i></a>
         </div>
-        <input type="text" name="username" required name="name" placeholder="User Name">
-        <input type="password" placeholder="Password" />
-        <button>Sign In</button>
+        <input id="userEmail" type="text" name="username" required name="name" placeholder="User Name">
+        <input id="userPassword" type="password" placeholder="Password" />
+        <button id="loginButton">Sign In</button>
         <button>Reset</button>
       </form>
     </div>
@@ -289,7 +297,7 @@ button:focus {
         </div>
       </div>
     </div>
-
+    <script src="./resources/script/script.js"></script>
     <script>
         const signUpButton = document.getElementById("signUp");
 const signInButton = document.getElementById("signIn");

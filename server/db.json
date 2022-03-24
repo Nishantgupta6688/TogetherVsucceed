@@ -1,0 +1,181 @@
+{
+  "users": [
+    {
+      "fname": "Nishant",
+      "lname": "Gupta",
+      "username": "nishantgpt618",
+      "email": "nishant@abc.com",
+      "password": "12345",
+      "gyear": "2018"
+    },
+    {
+      "fname": "Prashant",
+      "lname": "Gupta",
+      "username": "pggprashant3",
+      "email": "prashant@abc.com",
+      "password": "12345",
+      "gyear": "2018"
+    },
+    {
+      "fname": "Govind",
+      "lname": "Gupta",
+      "username": "govind@abc.com",
+      "email": "govind@abc.com",
+      "password": "12345",
+      "gyear": "2020"
+    },
+    {
+      "fname": "Mayank",
+      "lname": "Gupta",
+      "username": "mayank@abc.com",
+      "email": "mayank@abc.com",
+      "password": "12345",
+      "gyear": "2019"
+    }
+  ],
+  "expirenceList": [
+    {
+      "postedBy": "nishant@abc.com",
+      "companyName": "Invertis university",
+      "branch": "Electronics & instrumentaion",
+      "cgpa": "9.9",
+      "backlogs": "No",
+      "rounds": "5",
+      "nQuestions": "6",
+      "questions": "what is what",
+      "tips": "khao pio aish kro mitro"
+    },
+    {
+      "postedBy": "nishant@abc.com",
+      "companyName": "Sidhivinayak institute",
+      "branch": "Computer Science",
+      "cgpa": "6",
+      "backlogs": "No",
+      "rounds": "3",
+      "nQuestions": "3",
+      "questions": "how is what",
+      "tips": "Mauj kro"
+    },
+    {
+      "postedBy": "nishant@abc.com",
+      "companyName": "Swami educational complex",
+      "branch": "Electronics & Communication",
+      "cgpa": "7.0",
+      "backlogs": "No",
+      "rounds": "3",
+      "nQuestions": "6",
+      "questions": "questions?\n",
+      "tips": "None"
+    },
+    {
+      "postedBy": "nishant@abc.com",
+      "companyName": "Laxya academy",
+      "branch": "Computer Science",
+      "cgpa": "7.5",
+      "backlogs": "No",
+      "rounds": "9",
+      "nQuestions": "4",
+      "questions": "Questions?",
+      "tips": "None"
+    },
+    {
+      "postedBy": "nishant@abc.com",
+      "companyName": "Laxya academy",
+      "branch": "Electrical & Electronics",
+      "cgpa": "5.9",
+      "backlogs": "No",
+      "rounds": "6",
+      "nQuestions": "7",
+      "questions": "None",
+      "tips": "None"
+    },
+    {
+      "postedBy": "prashant@abc.com",
+      "companyName": "cicso",
+      "branch": "Electrical & Electronics",
+      "cgpa": "7.5",
+      "backlogs": "No",
+      "rounds": "4",
+      "nQuestions": "4",
+      "questions": "None",
+      "tips": "None"
+    },
+    {
+      "postedBy": "prashant@abc.com",
+      "companyName": "Amazon",
+      "branch": "Electrical & Electronics",
+      "cgpa": "5.6",
+      "backlogs": "No",
+      "rounds": "5",
+      "nQuestions": "7",
+      "questions": "bjjhbm n",
+      "tips": "khbjbkbj"
+    },
+    {
+      "postedBy": "prashant@abc.com",
+      "companyName": "Amazon",
+      "branch": "Electrical & Electronics",
+      "cgpa": "6.3",
+      "backlogs": "Yes",
+      "rounds": "5",
+      "nQuestions": "5",
+      "questions": "vvhjvj vhjj",
+      "tips": "bhjbkbkbkm"
+    },
+    {
+      "postedBy": "prashant@abc.com",
+      "companyName": "HCL Technologies",
+      "branch": "Mechatronics",
+      "cgpa": "6.4",
+      "backlogs": "No",
+      "rounds": "3",
+      "nQuestions": "6",
+      "questions": "hgvhgv hj",
+      "tips": "jbkjbk"
+    },
+    {
+      "postedBy": "nishant@abc.com",
+      "companyName": "HCL Technologies",
+      "branch": "Computer Science",
+      "cgpa": "8.0",
+      "backlogs": "No",
+      "rounds": "4",
+      "nQuestions": "6",
+      "questions": "jvjhjkvkbkm",
+      "tips": "hvjvhkbkb"
+    },
+    {
+      "postedBy": "nishant@abc.com",
+      "companyName": "Congnizant",
+      "branch": "Information Technology",
+      "cgpa": "8.0",
+      "backlogs": "Yes",
+      "rounds": "6",
+      "nQuestions": "6",
+      "questions": "ncbdhcbhkcbkm",
+      "tips": "vbvkskbvkjsbv"
+    },
+    {
+      "postedBy": "nishant@abc.com",
+      "companyName": "Tellus internationals",
+      "branch": "Information Technology",
+      "cgpa": "8.0",
+      "backlogs": "No",
+      "rounds": "6",
+      "nQuestions": "5",
+      "questions": "hgujhbbjbg",
+      "tips": "ghjbvjhbjhb"
+    },
+    {
+      "postedBy": "mayank@abc.com",
+      "companyName": "HCL Technologies",
+      "branch": "Computer Science",
+      "cgpa": "7.0",
+      "backlogs": "Yes",
+      "rounds": "6",
+      "nQuestions": "2",
+      "questions": "hvjvkvbkj",
+      "tips": "bhjbhkbkhb"
+    }
+  ]
+}
