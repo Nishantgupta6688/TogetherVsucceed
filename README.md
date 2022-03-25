@@ -14,3 +14,4 @@ for frontend:
 3.Click on "Go live" button and the server will automatically start.
 
 You are now ready to test the project.
+
