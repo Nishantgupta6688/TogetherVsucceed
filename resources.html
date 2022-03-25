@@ -18,7 +18,7 @@
             <a href="" class="a-menu"><li>PRACTICE PAPER</li></a>
             <a href="" class="a-menu"><li>VIEW EXPERIENCE</li></a>
             <a href="./experienceform.html" class="a-menu"><li>ADD EXPERIENCE</li></a>
-            <a href="" class="a-menu"><li>PROFILE</li></a>
+            <a id="logoutButton" href="index.html">Logout</a>
             <li><a href="#"><img src="./resources/images/profile.png" class="profile"></a></li>
          
         </ul>
@@ -168,5 +168,12 @@
             </select>
         </div>
     </div>
+    <script>
+        let logoutButton = document.getElementById("logoutButton");
+        logoutButton.addEventListener("click", function () {
+          localStorage.removeItem("userData");
+          localStorage.removeItem("displayExperience");
+        });
+      </script>
 </body>
 </html>

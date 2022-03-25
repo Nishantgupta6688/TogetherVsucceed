@@ -311,6 +311,13 @@ signInButton.addEventListener("click", () => {
   container.classList.remove("right-panel-active");
 });
     </script>
+    <script>
+      let logoutButton = document.getElementById("logoutButton");
+      logoutButton.addEventListener("click", function () {
+        localStorage.removeItem("userData");
+        localStorage.removeItem("displayExperience");
+      });
+    </script>
 </body>
 
 </html>

@@ -14,6 +14,8 @@ const SECRET_KEY = "72676376";
 
 const expiresIn = "1h";
 
+if(123 == "123")
+
 function createToken(payload) {
   return jwt.sign(payload, SECRET_KEY, { expiresIn });
 }
@@ -93,14 +95,13 @@ server.post("/api/auth/login", (req, res) => {
       res.status(status).json({ status, message });
       return;
     }
-    data = JSON.parse(data.toString());
-    for (let i = 0; i < data.users.length; i++) {
-      if (data.users[i].email === email) {
-        profile = data.users[i];
+    let data1 = JSON.parse(data.toString());
+    for (let i = 0; i < data1.users.length; i++) {
+      if (data1.users[i].email === email) {
+        profile = data1.users[i];
       }
     }
-    const access_token = createToken({ email, password });
-    res.status(200).json({ message: "success", ...profile, access_token });
+    res.status(200).json({ message: "success", ...profile });
   });
 });
 

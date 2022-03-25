@@ -191,6 +191,7 @@
       <a href="/viewExperience.html">View Experiences</a>
       <a href="/resources.html">Resources</a>
       <a href="#">Off Campus</a>
+      <a id="logoutButton" href="index.html">Logout</a>
       <a href="#">
         <img
           src="./resources/images/practice paper/photoprofile.png"
@@ -413,5 +414,12 @@
         </tr>
       </table>
     </div>
+    <script>
+      let logoutButton = document.getElementById("logoutButton");
+      logoutButton.addEventListener("click", function () {
+        localStorage.removeItem("userData");
+        localStorage.removeItem("displayExperience");
+      });
+    </script>
   </body>
 </html>
